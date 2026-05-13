@@ -75,6 +75,9 @@ StyleCopReport.xml
 *_h.h
 *.ilk
 *.meta
+# Unity asset metadata must be versioned so scripts keep stable GUIDs.
+!Assets.meta
+!Assets/**/*.meta
 *.obj
 *.iobj
 *.pch
